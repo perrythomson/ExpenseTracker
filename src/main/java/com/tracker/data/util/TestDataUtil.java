@@ -9,6 +9,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 public class TestDataUtil {
+
     public static ArrayList<Test> getAllTests() {
         ArrayList<Test> tests = new ArrayList<>();
         try

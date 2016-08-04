@@ -17,6 +17,7 @@ public class Test {
         load(id);
     }
 
+    // This is the READ in CRUD
     public void load(int id) {
         try
         {
@@ -35,6 +36,7 @@ public class Test {
         }
     }
 
+    // This is the CREATE in CRUD
     public void saveNew() {
         if(!exists){
             try
@@ -58,6 +60,7 @@ public class Test {
         }
     }
 
+    // This is the UPDATE in CRUD
     private void update() {
         if(exists){
             try
@@ -79,6 +82,7 @@ public class Test {
         }
     }
 
+    // This is the DELETE in CRUD
     private void delete(){
         if(exists){
             try
